@@ -3,6 +3,9 @@
 #include <unistd.h>
 
 char name[12];
+void call_me();
+int sub_main();
+
 int sub_main(){
   char buffer[420];
   int characters_read;
